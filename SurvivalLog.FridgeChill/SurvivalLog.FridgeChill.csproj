@@ -19,6 +19,11 @@
     <Compile Include="../ModShared/WelcomeTip.cs" />
   </ItemGroup>
 
+  <!-- ModCenter mcSpec 2 配置清单（内嵌资源；资源实名 SurvivalLog.FridgeChill.modcenter.json） -->
+  <ItemGroup>
+    <EmbeddedResource Include="modcenter.json" />
+  </ItemGroup>
+
   <ItemGroup>
     <Reference Include="BepInEx.Core">
       <HintPath>E:\SteamLibrary\steamapps\common\Survival Log\BepInEx\core\BepInEx.Core.dll</HintPath>
