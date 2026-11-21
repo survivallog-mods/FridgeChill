@@ -1,5 +1,6 @@
 {
   "mcSpec": 2,
+  "suite": true,
   "id": "com.local.survivallog.fridgechill",
   "display": "保鲜增强",
   "en": "FridgeChill",
